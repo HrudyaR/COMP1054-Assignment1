@@ -1,0 +1,202 @@
+/* All elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+    
+body#css-zen-garden { 
+	font: 75% georgia, sans-serif;
+	line-height: 24px;
+	color: #555753; 
+	background: #fff url(../images/blossoms.jpg) no-repeat bottom right; 
+}
+    
+.page-wrapper p { 
+	margin-top: 0; 
+    text-align: justify;
+    margin-bottom: 10px;
+    }
+    
+.page-wrapper h3 { 
+    font-style: italic;
+    font-size: 1.4em;
+    font-family: georgia, sans-serif;
+    font-variant: normal;
+    font-weight: normal;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+    }
+    
+a:link, a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+}
+    
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+}
+    
+abbr {
+	border-bottom: none;
+}
+
+.top-image {
+	background: transparent url(../images/cr2.gif) top left no-repeat; 
+	position: absolute; 
+	top: 40px; 
+	right: 0; 
+	width: 148px; 
+	height: 110px;
+}
+
+.page-wrapper { 
+    background-image: url(../images/zen-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top left; 
+	padding: 0 180px 0 120px;  
+	margin: 0; 
+}
+
+.page-wrapper .intro { 
+	min-width: 470px;
+	width: 100%;
+}
+
+.page-wrapper header {
+	padding-top: 20px;
+	height: 87px;
+}
+
+.page-wrapper header > h1 { 
+	background: transparent url(../images/h1.gif) no-repeat top left;
+	margin-top: 10px;
+	display: block;
+	width: 219px;
+	height: 87px;
+	float: left;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+    
+.page-wrapper header > h2 { 
+	background: transparent url(../images/h2.gif) no-repeat top left; 
+	width: 200px; 
+	height: 20px;
+	margin-bottom: 40px; 
+	margin-top: 60px;  
+	float: right;
+	white-space: nowrap;
+	overflow: hidden;
+	text-indent: 100%;
+}
+.page-wrapper .summary { 
+    clear: both;
+	margin: 20px 20px 10px; 
+	width: 160px; 
+	float: left;
+}
+.page-wrapper .summary > p {
+    font-style: italic;
+    font-size: 1.1em;
+	text-align: center;
+}
+
+.page-wrapper .preamble {
+	clear: right; 
+	padding: 0px 10px 0 10px;
+}
+    
+.page-wrapper .supporting {	
+	padding-left: 10px; 
+	margin-bottom: 40px;
+}
+
+footer { 
+	text-align: center; 
+}
+footer a {
+    padding: 0 10px;
+}
+
+.page-wrapper .sidebar {
+	position: absolute; 
+	top: 0; 
+	right: 0;
+	margin-left: 600px; 
+}
+.page-wrapper .sidebar .wrapper { 
+	font: 10px verdana, sans-serif; 
+	padding: 10px; 
+	margin-top: 150px; 
+	width: 130px; 
+    background-image: url(../images/paper-bg.jpg);
+    background-repeat: repeat-y;
+    background-position: top left;
+    background-color: transparent;
+}
+    
+.page-wrapper .sidebar h3.select { 
+    background-image: url(../images/h3.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: transparent;
+	margin: 10px 0 0; 
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 100px; 
+	height: 20px; 
+}
+    
+.sidebar h3.archives { 
+    background-image: url(../images/h5.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: transparent;
+	margin: 25px 0 0; 
+	width:60px; 
+	height: 15px; 
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+    
+.page-wrapper .sidebar h3.resources {  
+    background-image: url(../images/h6.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: transparent;
+	margin: 25px 0 0; 
+	width:65px; 
+	height: 10px; 
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+
+.sidebar > ul {
+	margin: 0;
+	padding: 0;
+}
+.sidebar ul > li {
+	line-height: 1.5em; 
+    background-image: url(../images/cr1.gif);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: transparent;
+	display: block; 
+	padding:5px 0;
+	list-style-type: none;
+}
+
+.sidebar ul > li > a {
+	color: #988F5E;
+}
+.sidebar li a:visited, .sidebar li a:focus, .sidebar li a:active {
+	color: #B3AE94;
+}
